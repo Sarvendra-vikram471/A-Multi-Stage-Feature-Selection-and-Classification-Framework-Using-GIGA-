@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Generated output (charts, Word docs) - results Excel/CSV are included
+*.png
+*.pdf
+*.docx
+graphs/
+graphs_cv/
+
+# Large intermediate files
+*.pkl
+*.joblib
